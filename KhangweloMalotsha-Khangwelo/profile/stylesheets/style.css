@@ -1,0 +1,44 @@
+  body {
+    background: url("http://26.media.tumblr.com/tumblr_m2ylixNXae1qgz7tgo1_500.jpg");
+    background-size: cover;
+
+  }
+  h1 {
+      font-size: 50px;
+      margin: 10px 0 10px 0;
+      color: #ffe4e1;
+      border-style: solid;
+      border-width: 5px;
+      border-color: black;
+    }
+  h3 {
+    font-family: "Lobster", cursive;
+    font-size: 30px;
+    color: rgb(255,170,169);
+  }
+  img {
+    border-radius: 50px; 
+    margin: 10px 10px 10px 10px;
+
+  }
+  .left { 
+    text-align: left;
+    line-height: 10px; 
+    
+  }
+  .right {
+    text-align: right;
+    line-height: 10px;
+  }
+  .heading1 {
+    line-height: 20px;
+    text-align: left;
+  }
+  .heading2 {
+    line-height: 20px;
+    text-align: right;
+  }
+  .job {
+    line-height: 20px;
+    color: #e7e7e7;
+  }
