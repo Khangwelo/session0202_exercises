@@ -6,3 +6,7 @@ while true
 		puts "HUH!? SPEAK UP I CAN'T HEAR YOU SONNY!"	
 	end
 end
+
+hello Proc.new do |good stuff|
+	puts "o"
+end
