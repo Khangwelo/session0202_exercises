@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Place.create! name: "Thohoyandou", location: "Limpopo,South Africa", population: 700
+Place.create! name: "Clifton", location: "western cape,South Africa", population: 490
