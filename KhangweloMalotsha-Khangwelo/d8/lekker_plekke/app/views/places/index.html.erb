@@ -1,9 +1,12 @@
 <h1>Welcome to Lekker Plekke mate!</h1>
 
-<ul>
-<%= @places.each do |place| %>
-	<li><%= link_to place.name, place_path(place) %></li>
-	<% end %>
+<table>
+  <% @places.each do |place| %>
+    <tr>
+	<td><%= place.name %></td>
+	 <td><%= link_to "Show", place_path(place) %></td>
+    </tr>
+  <% end %>
+</table>
 
-
-</ul>
+<%= link_to "New plekke", new_place_path %>

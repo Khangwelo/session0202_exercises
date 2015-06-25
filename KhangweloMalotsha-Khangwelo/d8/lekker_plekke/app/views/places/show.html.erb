@@ -1,0 +1,15 @@
+
+	<strong>Name</strong>
+	<li><%= @place.name %></li>
+
+	<strong>Location</strong>
+	<li><%= @place.location %></li>
+
+	<strong>Population</strong>
+	<li><%= @place.population %></li>
+
+	<%= link_to "Home", places_path %> |
+	<%= link_to "Edit", edit_place_path %> |
+	<%= link_to "Delete", place_path , #why don t we specify (place) here
+				method: :delete,
+				data: { confirm: 'Are you sure?' } %>
