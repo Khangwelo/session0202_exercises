@@ -8,6 +8,12 @@
 	<strong>Population</strong>
 	<li><%= @place.population %></li>
 
+	<h2>Comments</h2>
+	<%= render @place.comments %>
+	 
+	<h2>Add a comment:</h2>
+	<%= render "comments/form" %>
+
 	<%= link_to "Home", places_path %> |
 	<%= link_to "Edit", edit_place_path %> |
 	<%= link_to "Delete", place_path , #why don t we specify (place) here
